@@ -18,8 +18,8 @@
         .profile { width: 100px;
                     height: 100px;
                     border-radius: 100%;
-                    border: 2px white;
-                    background-image: url( monkey.jpg );
+                    border: 2px solid white;
+                    background-image: url(monkey.jpg);
                     background-position: center;
                     background-size: cover;
         }
@@ -32,6 +32,16 @@
             color: white;
             font-size: 14px;
             margin-bottom: 20px;
+        }
+
+        .wrap{
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         .wrap > a {
@@ -56,11 +66,12 @@
                 }
     </style>
 
-    
+
 </head>
 <body>
     <div class="wrap">
         <h1 class="main">Jeong Yeonsu</h1>
+        <div class="profile"></div>
         <p class="sub">샌즈에모험TV 엄청난 파괘자 </p>
         <a href="https://kscms.ks.ac.kr/kor/Main.do"> 킹짱대학교 메인 </a>
         <a href="http://ipp.ks.ac.kr/"> 킹짱대학교ipp </a>
